@@ -1,4 +1,11 @@
 # coding=utf-8
+##############################################################################
+# hello world                                                                #           
+# my name is weijunjiang                                                     #
+# E-mail: weijunjiang33@gmail.com                                            #
+# date: 2021-05-29                                                           #
+##############################################################################
+
 import requests
 import urllib
 from bs4 import BeautifulSoup
@@ -121,25 +128,3 @@ if __name__ == "__main__":
     print('爬取完毕')
 
 
-# ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# try:
-#     response = urllib.request.urlopen("http://httpbin.org/get", timeout=0.1)
-#     print(response.read().decode("utf-8"))
-# except urllib.error.URLError as e:
-#     print("time out")
-
-# response = urllib.request.urlopen("http://www.baidu.com")
-# print(response.status)
-
-# headers = {
-#     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66"
-# }
-# url = "http://www.douban.com"
-# data = bytes(urllib.parse.urlencode({'name': 'eric'}), encoding="utf-8")
-# req = urllib.request.Request(
-#     url=url, data=data, headers=headers, method="POST",
-# )
-# response = urllib.request.urlopen(req)
-# print(response.read().decode("utf-8"))
-
-# -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
